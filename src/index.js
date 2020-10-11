@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import PrimeraApp from "./PrimeraApp";
+// import PrimeraApp from "./PrimeraApp";
 import './index.css'
+import CounterApp from "./CounterApp";
 
 const divRoot = document.querySelector('#root');
 
-ReactDOM.render(<PrimeraApp ejemplo="Este es un argumento" />, divRoot);
+ReactDOM.render(<CounterApp value={123} />, divRoot);
