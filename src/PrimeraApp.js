@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 // Se usa desestructuracion, para evitar colocar 'props.____' todo el tiempo
 // const PrimeraApp = (props) => {
@@ -26,6 +27,11 @@ const PrimeraApp = ({ ejemplo = 'Valor default' }) => {
 				<p>Mi primera app</p>
 				<Fragment />
 	*/
+}
+
+PrimeraApp.propTypes = {
+	ejemplo: PropTypes.string.isRequired // Se espera ejemplo de tipo string. Ademas, es obligatorio
+	// otroEjemplo: PropTypes.string // Se espera otroEjemplo de tipo string. No es obligatorio
 }
 
 export default PrimeraApp;
