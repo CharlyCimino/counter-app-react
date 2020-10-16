@@ -26,3 +26,4 @@ yarn-error.log*
 /src/base
 /src/data
 /src/tests/base
+/src/tests/__snapshots__
