@@ -21,3 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# pruebas
+/src/base
+/src/data
+/src/tests/base
